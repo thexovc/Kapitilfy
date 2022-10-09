@@ -1,0 +1,159 @@
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    color: #000000;
+}
+
+.left-nav {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.navbar-men {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.middle-nav {
+    width: 40%;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+
+    input {
+        display: flex;
+        height: 30px;
+        width: 100%;
+        text-align: left;
+        background-color: rgba(61, 56, 56, 0.07);
+        border: 1.5px solid #CACACA;
+        padding: 0 20px;
+        margin-left: -1px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+.right-nav {
+    width: 40%;
+    display: flex;
+    gap: 70px;
+    color: #000000;
+    padding: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.nav-m {
+    display: none;
+}
+
+.navbar-links {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nav-icon {
+        width: 25px;
+        height: 18px;
+    }
+}
+
+.icon-search {
+    font-size: 35px;
+    background-color: #06335B;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+@media (min-width: 321px) and (max-width: 490px) {}
+
+
+@media only screen and (min-width: 993px) {}
+
+@media only screen and (min-width: 601px) {}
+
+
+
+@media (max-width: 490px) {
+    .Navbar {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .logo-con {
+        padding-left: 20px;
+        width: 20%;
+    }
+
+    img {
+        padding-left: 0px;
+    }
+
+
+    .navbar__menubar {
+        cursor: pointer;
+        color: #000000;
+
+
+    }
+
+    .left-nav {
+        img {
+            padding-left: 50px;
+            width: 200px;
+            height: 25px;
+        }
+    }
+
+    .right__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: 800;
+        color: white;
+        padding: 10px;
+        gap: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar-links {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+
+        color: #070F1C;
+    }
+
+    .nav-h {
+        display: none;
+    }
+
+    .nav-m {
+        display: block;
+    }
+
+}
+
+@media (max-width: 320px) {}

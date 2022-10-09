@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-router-dom
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\anaconda3;C:\Users\HP\anaconda3\Library\mingw-w64\bin;C:\Users\HP\anaconda3\Library\usr\bin;C:\Users\HP\anaconda3\Library\bin;C:\Users\HP\anaconda3\Scripts;C:\Users\HP\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python310\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\HP\AppData\Roaming\Composer\vendor\bin;C:\xampp\mysql\bin;C:\Users\HP\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\HP\AppData\Local\Pandoc\;C:\Users\HP\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\heroku\bin;C:\Users\HP\AppData\Roaming\npm;C:\src\flutter\bin;C:\Users\HP\AppData\Local\Android\Sdk\tools;C:\Users\HP\AppData\Local\Android\Sdk\platform-tools;C:\Users\HP\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.9.0",
+      "@emotion/styled": "^11.8.1",
+      "@material-ui/core": "^4.12.4",
+      "@material-ui/icons": "^4.11.3",
+      "@mui/icons-material": "^5.6.0",
+      "@mui/material": "^5.6.0",
+      "@reduxjs/toolkit": "^1.8.1",
+      "@sanity/client": "^3.3.0",
+      "@sanity/image-url": "^1.0.1",
+      "@testing-library/jest-dom": "^5.16.2",
+      "@testing-library/react": "^12.1.2",
+      "@testing-library/user-event": "^13.5.0",
+      "firebase": "^9.6.10",
+      "framer-motion": "^6.2.8",
+      "node-sass": "^7.0.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-flip-move": "^3.0.4",
+      "react-icons": "^4.3.1",
+      "react-redux": "^7.2.8",
+      "react-scripts": "5.0.0",
+      "react-tooltip": "^4.2.21",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

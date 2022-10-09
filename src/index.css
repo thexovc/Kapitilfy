@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Imported;
+    src: url('../src/font/BR_Firma_Regular.otf');
+}
+
+body {
+    margin: 0;
+    font-family: Imported !important;
+    width: 100vw;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+::-webkit-input-placeholder {
+    font-family: Imported !important;
+}
+
+:-moz-placeholder {
+    font-family: Imported !important;
+}
+
+::-moz-placeholder {
+    font-family: Imported !important;
+}
+
+:-ms-input-placeholder {
+    font-family: Imported !important;
+}
